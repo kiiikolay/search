@@ -37,6 +37,16 @@ def split_text_by_time(text) -> list:
     return parts
 
 def search(part, words_dict):
+    """
+    производит поиск ключевых слов в частях текста.
+
+    Args:
+        part: часть текста.
+        words_dict: список с ключевыпи словами.
+
+    Returns:
+        Список строк, где были обнаружены ключевые слова
+    """
     result = []
     for pattern in part:
         for patt in words_dict:
