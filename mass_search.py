@@ -56,7 +56,7 @@ def search(part, words_dict):
 
 
 
-with open("/home/kikolas/PycharmProjects/pythonProject API/dialogue.txt", "r") as dialogue:
+with open("/path/", "r") as dialogue:
     data = dialogue.read()
     part = split_text_by_time(data)
     counter = 0
